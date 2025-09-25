@@ -1,0 +1,7 @@
+name: 'DaData Integration'
+type: module
+description: 'DaData API integration for autocomplete in forms (country, city, address).'
+core_version_requirement: ^10 || ^11
+package: 'Custom'
+dependencies:
+  - drupal:system

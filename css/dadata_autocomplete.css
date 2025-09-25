@@ -1,0 +1,27 @@
+.dadata-suggestions {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  z-index: 9999;
+}
+
+.dadata-suggestion-item {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.dadata-suggestion-item:hover {
+  background-color: #f2f2f2;
+}
+
+.dadata-suggestion-item.active {
+  background-color: #0074bd;
+  color: white;
+}

@@ -1,0 +1,16 @@
+dadata_integration.settings:
+  path: '/admin/config/services/dadata'
+  defaults:
+    _form: '\Drupal\dadata_integration\Form\SettingsForm'
+    _title: 'DaData Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+dadata_integration.suggest:
+  path: '/dadata/suggest/{type}'
+  defaults:
+    _controller: '\Drupal\dadata_integration\Controller\SettingsController::suggest'
+  requirements:
+    _permission: 'access content'
+  options:
+    _format: 'json'

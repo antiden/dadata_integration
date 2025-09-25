@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ *
+ * Attaches DaData JS/CSS library and passes configured fields to
+ * drupalSettings.
+ */
+function dadata_integration_page_attachments(array &$attachments) {
+  $config = \Drupal::config('dadata_integration.settings');
+  $raw_fields = $config->get('fields') ?: [];
+
+  $fields = array_map(function ($f) {
+    return [
+      'field_id' => $f['field_id'] ?? '',
+      'type'     => in_array($f['type'] ?? '', ['address','fio','email','party'], TRUE)
+        ? $f['type']
+        : 'address',
+      'bound'    => $f['bound'] ?? 'address',
+    ];
+  }, $raw_fields);
+
+  $attachments['#attached']['library'][] = 'dadata_integration/dadata';
+  $attachments['#attached']['drupalSettings']['dadataIntegration'] = [
+    'fields' => $fields,
+  ];
+}

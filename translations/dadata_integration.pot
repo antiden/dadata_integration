@@ -1,0 +1,78 @@
+# dadata_integration.pot
+# Translation template for DaData Integration module
+# Generated for Drupal.org
+msgid ""
+msgstr ""
+"Project-Id-Version: dadata_integration\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: dadata_integration.info.yml
+msgid "DaData API integration for autocomplete in forms (country, city, address)."
+msgstr ""
+
+#: src/Controller/SettingsController.php
+msgid "DaData request failed: @msg"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "API URL"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Base DaData API URL, for example: https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Field ID"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Suggestion type"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Granularity (bound)"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Actions"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "No fields have been added yet."
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Full name"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Company"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Full address"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Settlement"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Street"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "House"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Remove"
+msgstr ""
+
+#: src/Form/SettingsForm.php
+msgid "Add field"
+msgstr ""

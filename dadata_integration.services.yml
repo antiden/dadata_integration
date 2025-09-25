@@ -1,0 +1,4 @@
+services:
+  dadata_integration.attachments:
+    class: Drupal\Core\DependencyInjection\ContainerInjectionInterface
+    arguments: []

@@ -1,0 +1,9 @@
+dadata:
+  js:
+    js/dadata_autocomplete.js: {}
+  css:
+    theme:
+      css/dadata_autocomplete.css: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings

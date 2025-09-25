@@ -1,0 +1,50 @@
+msgid "DaData API integration for autocomplete in forms (country, city, address)."
+msgstr "Интеграция DaData API для автоподсказок в формах (страна, город, адрес)."
+
+msgid "DaData request failed: @msg"
+msgstr "Запрос к DaData завершился с ошибкой: @msg"
+
+msgid "API URL"
+msgstr "API URL"
+
+msgid "Base DaData API URL, for example: https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest"
+msgstr "Базовый URL сервиса DaData, например: https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest"
+
+msgid "Field ID"
+msgstr "ID поля"
+
+msgid "Suggestion type"
+msgstr "Тип подсказки"
+
+msgid "Granularity (bound)"
+msgstr "Гранулярность (bound)"
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "No fields have been added yet."
+msgstr "Пока нет ни одного поля"
+
+msgid "Full name"
+msgstr "ФИО"
+
+msgid "Company"
+msgstr "Компания"
+
+msgid "Full address"
+msgstr "Полный адрес"
+
+msgid "Settlement"
+msgstr "Населённый пункт"
+
+msgid "Street"
+msgstr "Улица"
+
+msgid "House"
+msgstr "Дом"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Add field"
+msgstr "Добавить поле"

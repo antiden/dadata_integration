@@ -13,7 +13,7 @@ This module is useful for:
 ---
 
 ## Requirements
-- Drupal 10 or 11
+- Drupal 10 or later
 - A valid DaData API key (get one at [dadata.ru](https://dadata.ru/))
 
 ---
